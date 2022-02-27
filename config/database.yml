@@ -1,0 +1,26 @@
+development:
+  adapter: mysql2
+  encoding: utf8mb4
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: root
+  password: 1234
+  socket: /tmp/mysql.sock
+  database: octo_events_dev
+
+test:
+  adapter: mysql2
+  encoding: utf8mb4
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: root
+  password: 1234
+  socket: /tmp/mysql.sock
+  database: octo_events_test
+
+production:
+  adapter: mysql2
+  encoding: utf8mb4
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: root
+  password: 1234
+  socket: /tmp/mysql.sock
+  database: octo_events_prd
