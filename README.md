@@ -2,11 +2,13 @@
 
 ## VERSIONS
 
-- **Rails V7**
+- **Framework:** Rails V7
 
-- **Ruby 3.0.0**
+- **Ruby:**  3.0.0
 
-- **Database MYSQL**
+- **Database:** MySQL
+
+- **Testing:** rspec 
 
 <br/>
 
