@@ -2,13 +2,18 @@
 
 ## VERSIONS
 
-- **Framework:** Rails V7
+- **FRAMEWORK:** Rails V7
 
-- **Ruby:**  3.0.0
+- **RUBY:**  3.0.0
 
-- **Database:** MySQL
+- **DB:** MySQL
 
-- **Testing:** rspec 
+- **TESTING:**
+  + database-cleaner
+  + factory_bot
+  + faker
+  + rspec
+  + rubocop
 
 <br/>
 
