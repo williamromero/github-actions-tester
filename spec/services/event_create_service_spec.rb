@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe Webhook::CreateIssueService do
+RSpec.describe Hook::CreateIssueService do
 
   describe "initialize service params" do
 

@@ -1,4 +1,4 @@
-module Webhook
+module Hook
   class CreateIssueService < ApplicationService
     
     def initialize(params)

@@ -1,5 +1,5 @@
 require 'json'
-require './app/services/webhook/create_issue_service'
+require './app/services/hook/create_issue_service'
 
 class EventsController < ApplicationController
 
@@ -11,7 +11,7 @@ class EventsController < ApplicationController
 
   def create
     return render json: { error: "No issue_id provided" }, status: 400 if issue_param.nil?
-    response = Webhook::CreateIssueService.call(parsed_params)
+    response = Hook::CreateIssueService.call(parsed_params)
     render json: response.to_json
   end
 
